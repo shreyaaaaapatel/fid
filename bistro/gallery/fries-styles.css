@@ -1,0 +1,68 @@
+@charset "UTF-8";
+        body {
+            background-color: #faf2e4;
+            margin: 0 10%;
+            font-family: "Outfit", sans-serif;
+            text-align: center;
+            background: #faf2e4 url(photos/blackgoose2.png) no-repeat center 100px fixed;
+            font-size: large;
+        }
+        header {
+        margin-top: 0;
+        padding: 3em 1em 2em 1em;
+        text-align: center;
+        background: url(photos/bluedot.png) center top repeat-x;
+        background: 
+            url(photos/bluedot.png) left top repeat-y,
+            url(photos/bluedot.png) right top repeat-y,
+            url(photos/gooseshadow.png) 90% bottom no-repeat;
+        background-color: rgba(255,255,255,.5);
+        }
+        h1 {
+            text-align: center;
+            font-family: "Poiret One", sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 30px;
+            text-shadow: .05em .05em .1em lightslategray;
+        }
+        h2 {
+            color: #d1633c;
+            font-size: 1.5em;
+            font-family: "Poiret One", sans-serif;
+            margin-top: 50px;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+        }
+        h3 {
+            text-align: center;
+            font-family: "Poiret One", sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #57b1dc;
+            margin-top: 30px;
+        }
+        nav {
+            text-align: center;
+        }
+        nav ul li {
+            text-align: center;
+            display: inline;
+            margin: 15px;
+        }
+        nav ul li a {
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-right: 50px;
+            padding: 10px;
+            background-color: #ff961d;
+            color: white;
+            display: inline-block;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #ffb71d;
+            color: white;
+        }
