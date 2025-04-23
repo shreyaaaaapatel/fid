@@ -1,0 +1,93 @@
+@charset "UTF-8";
+    body {
+        background-color: rgb(230, 255, 255);
+        margin: 0 10%;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        background: rgb(208, 236, 236) url(../../images/blackgoose2.png) no-repeat center 100px fixed;
+        font-size: large;
+    }
+    header {
+        margin-top: 0;
+        padding: 3em 1em 2em 1em;
+        text-align: center;
+        background: url(../../images/reddot.png) center top repeat-x;
+        background: 
+            url(../../images/reddot.png) left top repeat-y,
+            url(../../images/reddot.png) right top repeat-y,
+            url(images/gooseshadow.png) 90% bottom no-repeat;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    h1 { 
+        color: rgb(173, 0, 0);
+        text-align: center;
+        font-family: "Poiret One", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        text-shadow: .05em .05em .1em lightslategray;
+    }
+    h2 {
+        color: rgb(0, 78, 78);
+        text-align: left;
+        font-size: 1.5em;
+        font-family: "Poiret One", sans-serif;
+        margin-top: 70px;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+    }
+    h3 {
+        text-align: center;
+        font-family: "Poiret One", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 1px solid #399;
+        margin-top: 30px;
+    }
+    p {
+        font-family: "Outfit", sans-serif;
+        margin-bottom: 30px;
+    }
+    small { 
+        color: #999;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: rgb(9, 58, 58);
+        &:hover {
+            color: rgb(173, 0, 0);
+        }
+    }
+    ul {
+        list-style-type: none;
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+    }
+    ol {
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+    }  
+    nav {
+        text-align: center;
+    }
+    nav ul li {
+        text-align: center;
+        display: inline;
+        margin: 15px;
+    }
+    nav ul li a {
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: rgb(22, 102, 102);
+        color: white;
+        display: inline-block;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background-color: #399;
+        color: white;
+    }
